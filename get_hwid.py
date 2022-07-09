@@ -1,0 +1,1 @@
+from subprocess import *;from pyperclip import *;from pyautogui import *;copy(str(check_output('wmic csproduct get uuid')).split('\\r\\n')[1].strip('\\r').strip());alert("COPY HWID SUCCESS")
